@@ -1,0 +1,122 @@
+{
+    "male": {
+        "title": "Thiệp Mời Cưới | Viết Đạt & Phương Anh",
+        "coupleNames": "Viết Đạt & Phương Anh",
+        "weddingDate": "Thứ Bảy, 03 Tháng 1 2026",
+        "weddingTime": "2026-01-11 11:00:00",
+        "groom": {
+            "name": "Thái Viết Đạt",
+            "relation": "Con trai",
+            "father": "Ông Thái Văn Em",
+            "mother": "Bà Tăng Thị Lập"
+        },
+        "bride": {
+            "name": "Hoàng Phương Anh",
+            "relation": "Con gái",
+            "father": "Ông Hoàng Minh Phương",
+            "mother": "Bà Trần Thị Thanh Mai"
+        },
+        "wedding": {
+            "ceremony": {
+                "title": "Lễ Cưới",
+                "time": "Lúc 11:00 - Kết thúc",
+                "enabled": false
+            },
+            "reception": {
+                "title": "Tiệc Cưới",
+                "time": "Lúc 11:00 - Kết thúc",
+                "enabled": true
+            }
+        },
+        "location": {
+            "address": "64 Đường Đông Hòa 9,  Quảng Đà, xã Hưng Thịnh, Đồng Nai",
+            "googleMapsUrl": "https://goo.gl/maps/ALZR6FJZU3kxVwN86"
+        },
+        "dresscode": {
+            "colors": ["#F5F5DC", "#808000", "#000000"]
+        },
+        "gift": {
+            "transfer": {
+                "name": "Pa Siapa?",
+                "bank": "Ngân Hàng Trung Ương Châu Á",
+                "account": "1234567891234"
+            },
+            "qrcode": {
+                "name": "Danny Siapa?",
+                "image": "./assets/images/donate.png"
+            },
+            "physical": {
+                "name": "Danny Siapa?",
+                "phone": "0812345678",
+                "address": "Tổ 10 Khu 02, Xã Pajerukan, Huyện Kalibagor, Tỉnh Banyumas, Trung Java 53191."
+            }
+        },
+        "messages": {
+            "invitation": "Với tất cả sự kính trọng, chúng tôi trân trọng kính mời Quý vị đến dự lễ cưới của chúng tôi:",
+            "dresscode": "Để tạo không khí ấm cúng, chúng tôi mong quý vị vui lòng mặc trang phục theo tone màu <b>dresscode</b> sau:",
+            "gift": "Với sự kính trọng, đối với những ai muốn gửi tặng tình cảm đến chúng tôi, có thể thông qua:",
+            "closing": "Cảm ơn Quý vị đã quan tâm và những lời cầu nguyện chúc phúc, đó là niềm hạnh phúc và vinh dự lớn đối với chúng tôi.",
+            "greeting": "Wassalamualaikum Warahmatullahi Wabarakatuh"
+        }
+    },
+    "female": {
+        "title": "Thiệp Mời Cưới | Phương Anh & Viết Đạt",
+        "coupleNames": "Phương Anh & Viết Đạt",
+        "weddingDate": "Thứ Bảy, 03 Tháng 1 2026",
+        "weddingTime": "2026-01-03 10:00:00",
+        "groom": {
+            "name": "Thái Viết Đạt",
+            "relation": "Con trai",
+            "father": "Ông Thái Văn Em",
+            "mother": "Bà Tăng Thị Lập"
+        },
+        "bride": {
+            "name": "Hoàng Phương Anh",
+            "relation": "Con gái",
+            "father": "Ông Hoàng Minh Phương",
+            "mother": "Bà Trần Thị Thanh Mai"
+        },
+        "wedding": {
+            "ceremony": {
+                "title": "Lễ Cưới",
+                "time": "Lúc 10:00 - Kết thúc",
+                "enabled": false
+            },
+            "reception": {
+                "title": "Tiệc Cưới",
+                "time": "Lúc 17:30 - Kết thúc",
+                "enabled": true
+            }
+        },
+        "location": {
+            "address": "Tổ 10 Khu 02, Xã Pajerukan, Huyện Kalibagor, Tỉnh Banyumas, Trung Java 53191.",
+            "googleMapsUrl": "https://goo.gl/maps/ALZR6FJZU3kxVwN86"
+        },
+        "dresscode": {
+            "colors": ["#F5F5DC", "#808000", "#000000"]
+        },
+        "gift": {
+            "transfer": {
+                "name": "Pa Siapa?",
+                "bank": "Ngân Hàng Trung Ương Châu Á",
+                "account": "1234567891234"
+            },
+            "qrcode": {
+                "name": "Danny Siapa?",
+                "image": "./assets/images/donate.png"
+            },
+            "physical": {
+                "name": "Danny Siapa?",
+                "phone": "0812345678",
+                "address": "Tổ 10 Khu 02, Xã Pajerukan, Huyện Kalibagor, Tỉnh Banyumas, Trung Java 53191."
+            }
+        },
+        "messages": {
+            "invitation": "Với tất cả sự kính trọng, chúng tôi trân trọng kính mời Quý vị đến dự lễ cưới của chúng tôi:",
+            "dresscode": "Để tạo không khí ấm cúng, chúng tôi mong quý vị vui lòng mặc trang phục theo tone màu <b>dresscode</b> sau:",
+            "gift": "Với sự kính trọng, đối với những ai muốn gửi tặng tình cảm đến chúng tôi, có thể thông qua:",
+            "closing": "Cảm ơn Quý vị đã quan tâm và những lời cầu nguyện chúc phúc, đó là niềm hạnh phúc và vinh dự lớn đối với chúng tôi.",
+            "greeting": "Wassalamualaikum Warahmatullahi Wabarakatuh"
+        }
+    }
+}
