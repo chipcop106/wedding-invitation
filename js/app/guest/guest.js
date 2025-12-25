@@ -71,14 +71,15 @@ export const guest = (() => {
      */
     const showGuestName = () => {
         /**
-         * Make sure "to=" is the last query string.
-         * Ex. ulems.my.id/?id=some-uuid-here&to=name
+         * Parse query parameters properly to handle multiple parameters
+         * Ex. danny-pa.com/sg?to=abcxyz&utm_medium=google
          */
-        const raw = window.location.search.split("to=");
+        const params = new URLSearchParams(window.location.search);
+        const nameParam = params.get("to");
         let name = null;
 
-        if (raw.length > 1 && raw[1].length >= 1) {
-            name = window.decodeURIComponent(raw[1]);
+        if (nameParam && nameParam.length >= 1) {
+            name = window.decodeURIComponent(nameParam);
         }
 
         if (name) {
